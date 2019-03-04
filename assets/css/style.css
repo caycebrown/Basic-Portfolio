@@ -2,6 +2,10 @@ body {
     background-image: url("../images/cork-wallet.png");
     background-repeat: fill;
     margin: 0 auto;
+    /* ----for flexbox------- */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 header {
@@ -42,7 +46,7 @@ header {
     margin-left: 10px;
     padding-top: 20px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#dddddd;
+    color:#666666;
     float: right;
 }
 
@@ -53,7 +57,9 @@ main {
     margin-top: 30px;
     margin-bottom: 90px;
     background-color: white;
-    height: 500px;
+    height: 400px;
+    /*---for flexbox---*/
+    flex: 1;
 }
 
 .heading {
@@ -91,4 +97,14 @@ main {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     line-height: 2;
+}
+
+footer {
+    height: 60px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #dddddd;
+    font-size: 8px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
