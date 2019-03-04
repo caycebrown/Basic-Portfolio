@@ -1,7 +1,7 @@
 body {
     background-image: url("../images/cork-wallet.png");
     background-repeat: fill;
-    margin: 0 auto;
+    margin: 0;
     /* ----for flexbox------- */
     display: flex;
     min-height: 100vh;
@@ -14,20 +14,21 @@ header {
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    border-bottom: 2px solid #666666;
 }
 
 .navbar {
     width: 960px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .titlebox {
-    box-sizing: content-box;
     background-color: #4aaaa5;
     width: 30%;
     margin: 0;
     float: left;
-    height: 90px;
+    height: 99.5%;
 }
 
 .Title {
