@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/cork-wallet.png");
+    background-image: url("../images/hexellence_@2X.png");
     background-repeat: fill;
     margin: 0;
     /* ----for flexbox------- */
@@ -10,10 +10,11 @@ body {
 
 header {
     height: 90px;
-    background-color: white;
+    background-color: #333;
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    border-top: 0px;
     border-bottom: 2px solid #666666;
 }
 
@@ -24,9 +25,8 @@ header {
 }
 
 .titlebox {
-    background-color: #4aaaa5;
+    background-color: #229bff;
     width: 30%;
-    margin: 0;
     float: left;
     height: 99.5%;
 }
@@ -57,14 +57,14 @@ main {
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 90px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, .7);
     height: max-content;
     /*---for flexbox---*/
     flex: 1;
 }
 
 .heading {
-    color: #4aaaa5;
+    color: #229bff;
     font-family: "Georgia", "Times", 'Times New Roman', 'serif';
     height: 50px;
     margin-left: 25px;
@@ -100,8 +100,9 @@ main {
 
 footer {
     height: 60px;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    background-color: #333;
+    border-top: 8px solid;     
+    color: #229bff;
     text-align: center;
     color: #dddddd;
     font-size: 8px;
@@ -147,10 +148,28 @@ button:hover {
     width: 100px;
     height: 40px;
     font-size: 20px;
-    background-color: #8df8f3
+    background-color: #8df8f3;
 }
 
-.portfolio {
-    text-align: center;
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 66.6%; 
+    margin-left: 25px;
+}
+
+.bannerimg {
+    position: relative;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.banner {
+    flex-wrap: wrap;
+    position: absolute;
+    color: white;
 }
 
