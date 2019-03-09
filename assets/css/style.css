@@ -25,7 +25,7 @@ header {
 }
 
 .titlebox {
-    background-color: #229bff;
+    background-color: #017ce0;
     width: 30%;
     float: left;
     height: 99.5%;
@@ -148,7 +148,7 @@ button:hover {
     width: 100px;
     height: 40px;
     font-size: 20px;
-    background-color: #8df8f3;
+    background-color: #5bb5ff;
 }
 
 .row {
