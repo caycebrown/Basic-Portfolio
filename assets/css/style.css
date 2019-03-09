@@ -156,7 +156,6 @@ button:hover {
 }
 
 .project {
-    background-image: url("../images/profilepic2.jpg");
     background-position: center;
     background-size: cover;
     float: left;
@@ -179,3 +178,23 @@ h4 {
     text-align: center;
 }
 
+#hangman {
+    background-image: url("../images/rockpaper.jpg");
+
+}
+
+#rpg {
+    background-image: url("../images/rpg.jpg");
+}
+
+#trivia {
+    background-image: url("../images/laptop.jpg");
+}
+
+#rutgers {
+    background-image: url("../images/desktop.jpg");
+}
+
+#rock {
+    background-image: url("../images/workset.jpg");
+}
